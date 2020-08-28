@@ -79,3 +79,7 @@ nav a:hover {
 }
 
 /* BEST SELLING */
+
+.bestselling-container img {
+  width: 100%;
+}
