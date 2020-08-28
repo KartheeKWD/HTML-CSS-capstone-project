@@ -1,0 +1,63 @@
+/* Globals */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Gotham-Bold";
+  src: url("fonts/GothamBold.ttf");
+}
+
+@font-face {
+  font-family: "Gotham-Light";
+  src: url("fonts/GothamRoundedLight_21020.ttf");
+}
+
+@font-face {
+  font-family: "HelveticaNue-Bold";
+  src: url("fonts/HelveticaNeue-Bold.ttf");
+}
+
+@font-face {
+  font-family: "HelveticaNue-Light";
+  src: url("fonts/HelveticaNeue-Light.ttf");
+}
+
+@font-face {
+  font-family: "HelveticaNue-Medium";
+  src: url("fonts/HelveticaNeue-Medium.ttf");
+}
+
+body {
+  font-family: "Gotham-Light";
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+/* Header */
+
+header {
+  background-color: #383838;
+}
+
+.gearlogo {
+  width: 100px;
+  height: 50px;
+}
+
+nav a {
+  color: #888888;
+}
+
+nav a:hover {
+  color: #d35266;
+}
