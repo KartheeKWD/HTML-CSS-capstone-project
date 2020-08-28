@@ -49,6 +49,10 @@ header {
   background-color: #383838;
 }
 
+nav {
+  height: 80px;
+}
+
 .gearlogo {
   width: 100px;
   height: 50px;
@@ -65,10 +69,16 @@ nav a:hover {
 /* SHOWCASE SECTION */
 
 .showcasecontainer {
-  background-image: url("images/showcase.jpg");
-  background-repeat: no-repeat;
+  background-image: url("images/showcase2.jpg"),
+    linear-gradient(
+      270deg,
+      rgba(211, 82, 102, 0.8043592437) 25%,
+      rgba(211, 82, 102, 0.8015581232) 75%
+    );
+  background-blend-mode: overlay;
   background-position: center;
-  height: 50vh;
+  background-size: cover;
+  height: 60vh;
   width: 100%;
 }
 
@@ -79,6 +89,12 @@ nav a:hover {
 }
 
 /* BEST SELLING */
+
+/* .bestselling-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+} */
 
 .bestselling-container img {
   width: 100%;
