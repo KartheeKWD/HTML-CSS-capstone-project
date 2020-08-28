@@ -61,3 +61,21 @@ nav a {
 nav a:hover {
   color: #d35266;
 }
+
+/* SHOWCASE SECTION */
+
+.showcasecontainer {
+  background-image: url("images/showcase.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50vh;
+  width: 100%;
+}
+
+/* HOT DEALS */
+
+.hotdealsimg {
+  height: 400px;
+}
+
+/* BEST SELLING */
