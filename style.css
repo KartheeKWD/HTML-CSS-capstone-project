@@ -45,6 +45,22 @@ a:hover {
 
 /* Genric classes  */
 
+.magenta-bg {
+  background-color: #d35266;
+}
+
+.magenta-text {
+  color: #d35266;
+}
+
+.graylight-color {
+  color: #888888;
+}
+
+.blacklight-color {
+  color: #383838;
+}
+
 /* Header */
 
 header {
@@ -85,17 +101,7 @@ nav a:hover {
 
 /* HOT DEALS */
 
-.hotdealsimg {
-  height: 400px;
-}
-
 /* BEST SELLING */
-
-/* .bestselling-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
-} */
 
 .bestselling-container img {
   width: 100%;
@@ -109,6 +115,10 @@ nav a:hover {
 
   .form-container {
     width: 100%;
+  }
+
+  .hot-deals {
+    width: 700px;
   }
 }
 

@@ -141,26 +141,53 @@
           </div>
         </div>
       </section>
+
       <div class="container-fluid">
         <!-- HOT DEALS -->
-        <section>
-          <div class="hotdeals-container">
-            <h3>Hot Deals of the Month</h3>
-            <img class="hotdealsimg w-100" src="images/hotdeals.jpg" alt="" />
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
-              temporibus assumenda ex eaque, cumque tempore illo, officia
-              corporis quis recusandae nihil perspiciatis sed consequuntur
-              similique error cum excepturi nesciunt non? Nobis facilis magni,
-              eos officia nostrum facere ipsa sed. Molestiae optio minima
-              molestias corporis deserunt eligendi repudiandae dolorem.
-              Reprehenderit, assumenda?
-            </p>
-            <button type="button" class="btn btn-primary">Primary</button>
-            <button type="button" class="btn btn-primary">Primary</button>
+
+        <section class="my-5">
+          <div class="hot-deals mx-auto">
+            <h3 class="font-weight-bold pl-1 offset-md-1 mb-2">
+              Hot Deals of the Month
+            </h3>
+            <div class="row hotdeals-container">
+              <div class="col-md d-md-flex">
+                <div class="align-self-center d-none d-sm-none d-md-block">
+                  <i class="fas fa-arrow-circle-left fa-2x magenta-text"></i>
+                </div>
+                <div class="col-md">
+                  <img
+                    class="w-100 h-100 hotdealsimg"
+                    src="images/hotdeals.jpg"
+                    alt=""
+                  />
+                </div>
+
+                <div class="col-md hot-dealscontent">
+                  <h4>Lorem ipsum, dolor sit amet</h4>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Aut temporibus assumenda ex eaque.
+                  </p>
+                  <div class="d-md-flex">
+                    <button
+                      type="button"
+                      class="btn magenta-bg text-white mr-2"
+                    >
+                      <i class="fas fa-dollar-sign"></i>5,000
+                    </button>
+                    <button type="button" class="btn magenta-bg text-white">
+                      <i class="fas fa-cart-plus"></i> BUY
+                    </button>
+                  </div>
+                </div>
+                <div class="align-self-center d-none d-sm-none d-md-block">
+                  <i class="fas fa-arrow-circle-right fa-2x magenta-text"></i>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
-
         <!-- BEST SELLING -->
 
         <section>
@@ -224,7 +251,9 @@
           </div>
         </section>
       </div>
+
       <!-- FOOTER -->
+
       <footer>
         <div class="d-flex flex-column align-items-center">
           <img class="gearlogo" src="images/gear4musiclogo.svg" alt="" />
