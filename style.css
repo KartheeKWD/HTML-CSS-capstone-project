@@ -43,19 +43,16 @@ a:hover {
   text-decoration: none;
 }
 
+/* Genric classes  */
+
 /* Header */
 
 header {
   background-color: #383838;
 }
 
-nav {
-  height: 80px;
-}
-
 .gearlogo {
-  width: 100px;
-  height: 50px;
+  width: 110px;
 }
 
 nav a {
@@ -75,10 +72,10 @@ nav a:hover {
       rgba(211, 82, 102, 0.8043592437) 25%,
       rgba(211, 82, 102, 0.8015581232) 75%
     );
-  background-blend-mode: overlay;
+  /* background-blend-mode: overlay; */
   background-position: center;
   background-size: cover;
-  height: 60vh;
+  height: 70vh;
   width: 100%;
 }
 
@@ -98,4 +95,16 @@ nav a:hover {
 
 .bestselling-container img {
   width: 100%;
+}
+
+/* Tablet breakpoint 768px */
+@media (min-width: 768px) {
+  .gearlogo {
+    width: 130px;
+  }
+}
+
+/* Desktop breakpoint 992px */
+
+@media (min-width: 992px) {
 }
