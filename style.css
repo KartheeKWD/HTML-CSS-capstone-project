@@ -79,6 +79,10 @@ nav a:hover {
   width: 100%;
 }
 
+.form-container {
+  width: 75%;
+}
+
 /* HOT DEALS */
 
 .hotdealsimg {
@@ -101,6 +105,10 @@ nav a:hover {
 @media (min-width: 768px) {
   .gearlogo {
     width: 130px;
+  }
+
+  .form-container {
+    width: 100%;
   }
 }
 

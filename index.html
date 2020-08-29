@@ -88,40 +88,56 @@
     <main>
       <!-- SHOWCASE SECTION -->
       <section>
-        <div class="showcasecontainer d-flex flex-column align-items-center">
+        <div
+          class="showcasecontainer d-flex flex-column align-items-center pt-md-2"
+        >
           <div class="pt-5">
             <h1 class="font-weight-bold text-white">Gear4Music</h1>
             <p class="font-weight-bold text-white">
               Buy the best music equipment
             </p>
           </div>
-          <div class="w-75">
+          <div class="form-container mt-md-5">
             <form>
-              <select class="form-control" id="exampleFormControlSelect1">
-                <option>All Categories</option>
-                <option>Guitars</option>
-                <option>Drums</option>
-                <option>Pianos</option>
-                <option>Disco Equipment</option>
-                <option>Microphones</option>
-              </select>
-              <input
-                type="text"
-                class="form-control my-2"
-                placeholder="Search "
-              />
-              <input
-                type="text"
-                class="form-control my-2"
-                placeholder="Country/Region "
-              />
+              <div class="d-md-flex justify-content-center">
+                <div class="mr-md-2 mb-2">
+                  <select class="form-control" id="exampleFormControlSelect1">
+                    <option>All Categories</option>
+                    <option>Guitars</option>
+                    <option>Drums</option>
+                    <option>Pianos</option>
+                    <option>Disco Equipment</option>
+                    <option>Microphones</option>
+                  </select>
+                </div>
+                <div class="mr-md-2 mb-2">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Search "
+                  />
+                </div>
+                <div class="mr-md-2 mb-2">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Country/Region "
+                  />
+                </div>
+                <button
+                  type="button"
+                  class="btn btn-dark btn-sm d-sm-none d-md-block mb-2"
+                >
+                  Search
+                </button>
+              </div>
+              <button
+                type="button"
+                class="btn btn-dark d-none d-sm-block d-md-none d-lg-none d-xl-none offset-sm-5"
+              >
+                Search
+              </button>
             </form>
-            <button
-              type="button"
-              class="btn btn-secondary btn-sm align-self-center my-2"
-            >
-              Search
-            </button>
           </div>
         </div>
       </section>
