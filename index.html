@@ -142,68 +142,80 @@
         </div>
       </section>
 
-      <div class="container-fluid">
-        <!-- HOT DEALS -->
+      <!-- HOT DEALS -->
+      <section class="my-5">
+        <div class="hot-deals mx-auto shadow p-3 mb-5 bg-white rounded">
+          <h3 class="font-weight-bold pl-1 mb-2">Hot Deals of the Month</h3>
+          <div class="row hotdeals-container">
+            <div class="col-md d-md-flex">
+              <div class="align-self-center d-none d-sm-none d-md-block">
+                <i class="fas fa-arrow-circle-left fa-2x magenta-text"></i>
+              </div>
+              <div class="col-md">
+                <img
+                  class="w-100 h-100 hotdealsimg"
+                  src="images/hotdeals.jpg"
+                  alt=""
+                />
+              </div>
 
-        <section class="my-5">
-          <div class="hot-deals mx-auto">
-            <h3 class="font-weight-bold pl-1 offset-md-1 mb-2">
-              Hot Deals of the Month
-            </h3>
-            <div class="row hotdeals-container">
-              <div class="col-md d-md-flex">
-                <div class="align-self-center d-none d-sm-none d-md-block">
-                  <i class="fas fa-arrow-circle-left fa-2x magenta-text"></i>
+              <div class="col-md hot-dealscontent">
+                <h4 class="text-justify">Lorem ipsum, dolor sit amet</h4>
+                <p class="text-justify">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut
+                  temporibus assumenda ex eaque.
+                </p>
+                <div class="d-md-flex">
+                  <button type="button" class="btn magenta-bg text-white mr-2">
+                    <i class="fas fa-dollar-sign"></i>5,000
+                  </button>
+                  <button type="button" class="btn magenta-bg text-white">
+                    <i class="fas fa-cart-plus"></i> BUY
+                  </button>
                 </div>
-                <div class="col-md">
-                  <img
-                    class="w-100 h-100 hotdealsimg"
-                    src="images/hotdeals.jpg"
-                    alt=""
-                  />
-                </div>
-
-                <div class="col-md hot-dealscontent">
-                  <h4>Lorem ipsum, dolor sit amet</h4>
-                  <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Aut temporibus assumenda ex eaque.
-                  </p>
-                  <div class="d-md-flex">
-                    <button
-                      type="button"
-                      class="btn magenta-bg text-white mr-2"
-                    >
-                      <i class="fas fa-dollar-sign"></i>5,000
-                    </button>
-                    <button type="button" class="btn magenta-bg text-white">
-                      <i class="fas fa-cart-plus"></i> BUY
-                    </button>
-                  </div>
-                </div>
-                <div class="align-self-center d-none d-sm-none d-md-block">
-                  <i class="fas fa-arrow-circle-right fa-2x magenta-text"></i>
-                </div>
+              </div>
+              <div class="align-self-center d-none d-sm-none d-md-block">
+                <i class="fas fa-arrow-circle-right fa-2x magenta-text"></i>
               </div>
             </div>
           </div>
-        </section>
-        <!-- BEST SELLING -->
+        </div>
+      </section>
 
-        <section>
-          <div>
-            <h3>Best selling Gear</h3>
-            <p>View all</p>
+      <!-- CATEGORY CONTAINER -->
+      <div class="container-fluid categories-container">
+        <!-- BEST SELLING -->
+        <section class="bestselling">
+          <div class="d-flex justify-content-between">
+            <h4 class="pl-lg-4">
+              <i class="fas fa-music"></i>Best selling Gear
+            </h4>
+            <p class="pr-lg-4">View all</p>
           </div>
           <div class="bestselling-container">
+            <div
+              class="align-self-center d-none d-sm-none d-md-none d-lg-block"
+            >
+              <i class="fas fa-angle-left fa-2x magenta-text"></i>
+            </div>
+
             <div class="bestselling-card">
               <img src="images/headphones.jpg" alt="" />
-              <h3>Fender Custom Shop 1962 Heavy Relic Stratocaster</h3>
-              <p>
-                1962 is a legendary year for Stratocasters. Maybe it was the
-                change from a "slab" fingerboard to the subtly arched,
-                round-laminated version
-              </p>
+              <div class="p-2">
+                <h4>Heavy Relic Stratocaster</h4>
+                <p class="text-justify">
+                  1962 is a legendary year for Stratocasters.
+                </p>
+                <div class="d-flex justify-content-between">
+                  <a href=""><i class="far fa-plus-square"></i> </a>
+                  <a href="">100<i class="fas fa-dollar-sign"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="bestselling-card">
+              <img src="images/headphones.jpg" alt="" />
+              <h4>Heavy Relic Stratocaster</h4>
+              <p>1962 is a legendary year for Stratocasters.</p>
               <div>
                 <a href=""><i class="fas fa-cart-plus"></i> Add to cart</a>
                 <a href="">100<i class="fas fa-dollar-sign"></i></a>
@@ -211,12 +223,8 @@
             </div>
             <div class="bestselling-card">
               <img src="images/headphones.jpg" alt="" />
-              <h3>Fender Custom Shop 1962 Heavy Relic Stratocaster</h3>
-              <p>
-                1962 is a legendary year for Stratocasters. Maybe it was the
-                change from a "slab" fingerboard to the subtly arched,
-                round-laminated version
-              </p>
+              <h4>Heavy Relic Stratocaster</h4>
+              <p>1962 is a legendary year for Stratocasters.</p>
               <div>
                 <a href=""><i class="fas fa-cart-plus"></i> Add to cart</a>
                 <a href="">100<i class="fas fa-dollar-sign"></i></a>
@@ -224,36 +232,23 @@
             </div>
             <div class="bestselling-card">
               <img src="images/headphones.jpg" alt="" />
-              <h3>Fender Custom Shop 1962 Heavy Relic Stratocaster</h3>
-              <p>
-                1962 is a legendary year for Stratocasters. Maybe it was the
-                change from a "slab" fingerboard to the subtly arched,
-                round-laminated version
-              </p>
+              <h4>Heavy Relic Stratocaster</h4>
+              <p>1962 is a legendary year for Stratocasters.</p>
               <div>
                 <a href=""><i class="fas fa-cart-plus"></i> Add to cart</a>
                 <a href="">100<i class="fas fa-dollar-sign"></i></a>
               </div>
             </div>
-            <div class="bestselling-card">
-              <img src="images/headphones.jpg" alt="" />
-              <h3>Fender Custom Shop 1962 Heavy Relic Stratocaster</h3>
-              <p>
-                1962 is a legendary year for Stratocasters. Maybe it was the
-                change from a "slab" fingerboard to the subtly arched,
-                round-laminated version
-              </p>
-              <div>
-                <a href=""><i class="fas fa-cart-plus"></i> Add to cart</a>
-                <a href="">100<i class="fas fa-dollar-sign"></i></a>
-              </div>
+            <div
+              class="align-self-center d-none d-sm-none d-md-none d-lg-block"
+            >
+              <i class="fas fa-angle-right fa-2x magenta-text"></i>
             </div>
           </div>
         </section>
       </div>
 
       <!-- FOOTER -->
-
       <footer>
         <div class="d-flex flex-column align-items-center">
           <img class="gearlogo" src="images/gear4musiclogo.svg" alt="" />

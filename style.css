@@ -98,13 +98,31 @@ nav a:hover {
 .form-container {
   width: 75%;
 }
+/* CATEGORY CONTAINER */
+
+.categories-container {
+  background-color: gray;
+}
 
 /* HOT DEALS */
 
 /* BEST SELLING */
+.bestselling-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.bestselling {
+  background-color: gray;
+}
 
 .bestselling-container img {
   width: 100%;
+}
+
+.bestselling-card {
+  background-color: white;
 }
 
 /* Tablet breakpoint 768px */
@@ -120,9 +138,20 @@ nav a:hover {
   .hot-deals {
     width: 700px;
   }
+
+  .bestselling-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
 }
 
 /* Desktop breakpoint 992px */
 
 @media (min-width: 992px) {
+  .bestselling-container {
+    display: grid;
+    grid-template-columns: 20px repeat(4, 1fr) 20px;
+    gap: 1rem;
+  }
 }
