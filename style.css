@@ -34,11 +34,9 @@
 }
 
 body {
-  font-family: "Gotham-Light";
+  font-family: "HelveticaNue-Medium";
 }
-a {
-  text-decoration: none;
-}
+a,
 a:hover {
   text-decoration: none;
 }
@@ -88,23 +86,19 @@ nav a:hover {
       rgba(211, 82, 102, 0.8043592437) 25%,
       rgba(211, 82, 102, 0.8015581232) 75%
     );
-  /* background-blend-mode: overlay; */
   background-position: center;
   background-size: cover;
-  height: 70vh;
+  height: 55vh;
   width: 100%;
+}
+
+.showcasecontainer h1 {
+  font-family: "Gotham-Bold", serif;
 }
 
 .form-container {
   width: 75%;
 }
-/* CATEGORY CONTAINER */
-
-.categories-container {
-  background-color: gray;
-}
-
-/* HOT DEALS */
 
 /* BEST SELLING */
 .bestselling-container {
@@ -136,7 +130,7 @@ nav a:hover {
   }
 
   .hot-deals {
-    width: 700px;
+    width: 767px;
   }
 
   .bestselling-container {
@@ -149,6 +143,10 @@ nav a:hover {
 /* Desktop breakpoint 992px */
 
 @media (min-width: 992px) {
+  .hot-deals {
+    width: 992px;
+  }
+
   .bestselling-container {
     display: grid;
     grid-template-columns: 20px repeat(4, 1fr) 20px;
