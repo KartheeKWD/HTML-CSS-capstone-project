@@ -15,6 +15,10 @@
   right: 0;
 }
 
+label {
+  color: #888888;
+}
+
 /* Tablet breakpoint 768px */
 @media (min-width: 768px) {
   .gearlogo {

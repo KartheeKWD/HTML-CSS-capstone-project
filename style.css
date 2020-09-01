@@ -90,7 +90,7 @@ nav a:hover {
       rgba(211, 82, 102, 0.8015581232) 75%
     );
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   height: 55vh;
   width: 100%;
 }
@@ -147,6 +147,8 @@ footer p {
 
   .hot-deals {
     width: 767px;
+
+    height: 390px;
   }
 
   .bestselling-container {
@@ -167,5 +169,9 @@ footer p {
     display: grid;
     grid-template-columns: 20px repeat(4, 1fr) 20px;
     gap: 1rem;
+  }
+
+  .showcasecontainer {
+    height: 40vh;
   }
 }
