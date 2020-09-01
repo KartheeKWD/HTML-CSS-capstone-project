@@ -101,7 +101,7 @@ header {
 /* SHOWCASE SECTION */
 
 .showcasecontainer {
-  background-image: url("images/showcase2.jpg"), linear-gradient(rgba(211, 82, 102, 0.8043592437) 25%, rgba(211, 82, 102, 0.8015581232) 75%);
+  background-image: url("images/showcaseneww.jpg"), linear-gradient(rgba(211, 82, 102, 0.8043592437) 25%, rgba(211, 82, 102, 0.8015581232) 75%);
   background-position: center;
   background-size: cover;
   height: 55vh;

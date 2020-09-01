@@ -1,12 +1,35 @@
 /* SEARCH-RESULT */
 
 .background-image-search {
-  background-image: url(images/showcase.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
   width: 100%;
   object-fit: cover;
+}
+
+.searc1 {
+  background-image: url(images/mic.jpg);
+}
+
+.search2 {
+  background-image: url(images/search2.jpeg);
+}
+
+.search3 {
+  background-image: url(images/search3.jpeg);
+}
+
+.search4 {
+  background-image: url(images/search4.jpeg);
+}
+
+.search5 {
+  background-image: url(images/search5.jpeg);
+}
+
+.search6 {
+  background-image: url(images/search6.jpeg);
 }
 
 .arrows {
