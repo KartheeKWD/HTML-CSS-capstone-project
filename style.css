@@ -120,7 +120,6 @@ header {
 
 .bgimg-showcase {
   background-image: url(images/showcase.jpg);
-  z-index: 2;
   background-position: center;
   background-size: cover;
   position: relative;

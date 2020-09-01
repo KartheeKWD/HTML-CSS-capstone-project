@@ -5,7 +5,7 @@
 
 > This is a capstone/exam project for the [Microverse](https://www.microverse.org) module HTML/CSS. It is a Gear4Music website using HTML, CSS3, Bootstrap, and Font awesome.
 
-## Watch a video presentation of the project [here](https://www.loom.com/). The website is built using this [mockup](https://www.behance.net/gallery/24796463/ZATTIX)
+## Watch a video presentation of the project [here](https://www.loom.com/share/36ccb168053545768be5f97d5be29a99). The website is built using this [mockup](https://www.behance.net/gallery/24796463/ZATTIX)
 
 ## Screenshot of the index page
 
