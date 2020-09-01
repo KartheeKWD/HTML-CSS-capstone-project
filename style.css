@@ -83,6 +83,11 @@ footer a:hover {
   background-color: #383838;
 }
 
+.search-button {
+  height: 39px;
+  width: 70px;
+}
+
 /* Header */
 
 header {
