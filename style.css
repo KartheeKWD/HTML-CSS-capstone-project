@@ -59,6 +59,10 @@ a:hover {
   color: #383838;
 }
 
+.blacklight-bg {
+  background-color: #383838;
+}
+
 /* Header */
 
 header {
