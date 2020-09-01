@@ -16,7 +16,7 @@
 }
 
 label {
-  color: #888888;
+  color: #888;
 }
 
 /* Tablet breakpoint 768px */
@@ -28,9 +28,4 @@ label {
   .form-container {
     width: 100%;
   }
-}
-
-/* Desktop breakpoint 992px */
-
-@media (min-width: 992px) {
 }

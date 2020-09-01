@@ -34,11 +34,31 @@
 }
 
 body {
-  font-family: "HelveticaNue-Medium";
+  font-family: "HelveticaNue-Medium", serif;
 }
-a,
+
+a {
+  text-decoration: none;
+}
+
+nav a {
+  color: #888;
+}
+
+footer a {
+  color: #888;
+}
+
 a:hover {
   text-decoration: none;
+}
+
+nav a:hover {
+  color: #d35266;
+}
+
+footer a:hover {
+  color: #d35266;
 }
 
 /* Genric classes  */
@@ -52,7 +72,7 @@ a:hover {
 }
 
 .graylight-color {
-  color: #888888;
+  color: #888;
 }
 
 .blacklight-color {
@@ -73,24 +93,12 @@ header {
   width: 110px;
 }
 
-nav a {
-  color: #888888;
-}
-
-nav a:hover {
-  color: #d35266;
-}
-
 /* SHOWCASE SECTION */
 
 .showcasecontainer {
-  background-image: url("images/showcase2.jpg"),
-    linear-gradient(
-      rgba(211, 82, 102, 0.8043592437) 25%,
-      rgba(211, 82, 102, 0.8015581232) 75%
-    );
+  background-image: url("images/showcase2.jpg"), linear-gradient(rgba(211, 82, 102, 0.8043592437) 25%, rgba(211, 82, 102, 0.8015581232) 75%);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   height: 55vh;
   width: 100%;
 }
@@ -101,6 +109,24 @@ nav a:hover {
 
 .form-container {
   width: 75%;
+}
+
+/* HOT DEALS */
+
+.bgimg-showcase {
+  background-image: url(images/showcase.jpg);
+  z-index: 2;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  object-fit: cover;
+}
+
+.arrows-showcase {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 /* CATEGORY CONTAINER */
@@ -123,14 +149,6 @@ nav a:hover {
   background-color: white;
 }
 
-footer a {
-  color: #888888;
-}
-
-footer a:hover {
-  color: #d35266;
-}
-
 footer p {
   font-size: 13px;
 }
@@ -147,7 +165,6 @@ footer p {
 
   .hot-deals {
     width: 767px;
-
     height: 390px;
   }
 
@@ -172,6 +189,6 @@ footer p {
   }
 
   .showcasecontainer {
-    height: 40vh;
+    height: 45vh;
   }
 }

@@ -1,567 +1,392 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
 
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
-      crossorigin="anonymous"
-    />
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="search.css" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
 
-    <title>Gear4Music</title>
-  </head>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="search.css" />
 
-  <body>
-    <header>
-      <!-- HEADER MOBILE -->
-      <nav class="d-sm-block d-md-none d-lg-none d-xl-none py-3">
-        <div class="d-flex justify-content-between align-items-center pl-4">
-          <a href="index.html"
-            ><img class="gearlogo" src="images/gear4musiclogo.svg" alt=""
-          /></a>
+  <title>Gear4Music</title>
+</head>
 
-          <div>
-            <a href=""><i class="fas fa-cart-plus fa-2x px-2"></i></a>
-            <a href=""><i class="far fa-smile fa-2x px-2"></i></a>
-            <a href=""><i class="fas fa-bars fa-2x pl-2 pr-4"></i></a>
-          </div>
+<body>
+  <header>
+    <!-- HEADER MOBILE -->
+    <nav class="d-sm-block d-md-none d-lg-none d-xl-none py-3">
+      <div class="d-flex justify-content-between align-items-center pl-4">
+        <a href="index.html"><img class="gearlogo" src="images/gear4musiclogo.svg" alt="" /></a>
+
+        <div>
+          <a href=""><i class="fas fa-cart-plus fa-2x px-2"></i></a>
+          <a href=""><i class="far fa-smile fa-2x px-2"></i></a>
+          <a href=""><i class="fas fa-bars fa-2x pl-2 pr-4"></i></a>
         </div>
-      </nav>
-      <!-- HEADER DESKTOP -->
-      <nav class="d-none d-sm-none d-md-block pt-3">
-        <div class="d-flex justify-content-between align-items-center">
-          <div>
-            <ul class="d-flex align-items-center list-unstyled">
-              <li>
-                <a href="index.html" class="px-2"
-                  ><img
-                    class="gearlogo pl-4"
-                    src="images/gear4musiclogo.svg"
-                    alt=""
-                /></a>
-              </li>
-              <li>
-                <a href="index.html" class="px-3">
-                  <i class="fa fa-home" aria-hidden="true"></i> HOME</a
-                >
-              </li>
-              <li>
-                <a href="" class="px-3">
-                  <i class="fas fa-music"></i> CATEGORY</a
-                >
-              </li>
-              <li>
-                <a href="" class="px-3"
-                  ><i class="fa fa-search" aria-hidden="true"></i> SEARCH</a
-                >
-              </li>
-            </ul>
-          </div>
-
+      </div>
+    </nav>
+    <!-- HEADER DESKTOP -->
+    <nav class="d-none d-sm-none d-md-block pt-3">
+      <div class="d-flex justify-content-between align-items-center">
+        <div>
           <ul class="d-flex align-items-center list-unstyled">
             <li>
-              <a href="" class="px-2"><i class="fas fa-envelope fa-2x"></i></a>
+              <a href="index.html" class="px-2"><img class="gearlogo pl-4" src="images/gear4musiclogo.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href="index.html" class="px-3">
+                <i class="fa fa-home" aria-hidden="true"></i> HOME</a>
             </li>
             <li>
               <a href="" class="px-3">
-                <i class="far fa-smile fa-2x align-middle"></i>
-                <span>KartheeK</span>
-              </a>
+                <i class="fas fa-music"></i> CATEGORY</a>
+            </li>
+            <li>
+              <a href="" class="px-3"><i class="fa fa-search" aria-hidden="true"></i> SEARCH</a>
             </li>
           </ul>
         </div>
-      </nav>
-    </header>
 
-    <main>
-      <!-- SHOWCASE SECTION -->
-      <section>
-        <div
-          class="showcasecontainer d-flex flex-column align-items-center pt-md-2"
-        >
-          <div class="pt-5">
-            <h1 class="font-weight-bold text-white">Gear4Music</h1>
-            <p class="font-weight-bold text-white">
-              Buy the best music equipment
-            </p>
-          </div>
-          <div class="form-container mt-md-5">
-            <form>
-              <div class="d-md-flex justify-content-center">
-                <div class="mr-md-2 mb-2">
-                  <select class="form-control" id="exampleFormControlSelect1">
-                    <option>All Categories</option>
-                    <option>Guitars</option>
-                    <option>Drums</option>
-                    <option>Pianos</option>
-                    <option>Disco Equipment</option>
-                    <option>Microphones</option>
-                  </select>
-                </div>
-                <div class="mr-md-2 mb-2">
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Search "
-                  />
-                </div>
-                <div class="mr-md-2 mb-2">
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Country/Region "
-                  />
-                </div>
-                <button
-                  type="button"
-                  class="btn btn-dark btn-sm d-sm-none d-md-block mb-2"
-                >
-                  Search
-                </button>
+        <ul class="d-flex align-items-center list-unstyled">
+          <li>
+            <a href="" class="px-2"><i class="fas fa-envelope fa-2x"></i></a>
+          </li>
+          <li>
+            <a href="" class="px-3">
+              <i class="far fa-smile fa-2x align-middle"></i>
+              <span>KartheeK</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- SHOWCASE SECTION -->
+    <section>
+      <div class="showcasecontainer d-flex flex-column align-items-center pt-md-2">
+        <div class="pt-5">
+          <h1 class="font-weight-bold text-white">Gear4Music</h1>
+          <p class="font-weight-bold text-white">
+            Buy the best music equipment
+          </p>
+        </div>
+        <div class="form-container mt-md-5">
+          <form>
+            <div class="d-md-flex justify-content-center">
+              <div class="mr-md-2 mb-2">
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>All Categories</option>
+                  <option>Guitars</option>
+                  <option>Drums</option>
+                  <option>Pianos</option>
+                  <option>Disco Equipment</option>
+                  <option>Microphones</option>
+                </select>
               </div>
-              <button
-                type="button"
-                class="btn btn-dark d-none d-sm-block d-md-none d-lg-none d-xl-none offset-sm-5"
-              >
+              <div class="mr-md-2 mb-2">
+                <input type="text" class="form-control" placeholder="Search " />
+              </div>
+              <div class="mr-md-2 mb-2">
+                <input type="text" class="form-control" placeholder="Country/Region " />
+              </div>
+              <button type="button" class="btn btn-dark btn-sm d-sm-none d-md-block mb-2">
                 Search
               </button>
-            </form>
+            </div>
+            <button type="button" class="btn btn-dark d-none d-sm-block d-md-none d-lg-none d-xl-none offset-sm-5">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEARCH PAGE -->
+
+    <div class="container">
+      <!-- SEARCH SECTION -->
+      <section>
+        <div class="row mx-auto">
+          <div class="search-conatiner border-left col-md-3 pt-4 d-none d-sm-none d-md-block pl-4 border-bottom">
+            <div class="">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck" />
+              <label class="pr-4">
+                NEW
+              </label>
+              <input class="form-check-input" type="checkbox" value="" />
+              <label>
+                USED
+              </label>
+            </div>
+
+            <div class="border-bottom my-2 ml-n3">
+              <h5 class="">TYPE</h5>
+            </div>
+            <div>
+              <input class="form-check-input" type="checkbox" value="" />
+              <label class="form-check-label">
+                Used
+              </label>
+            </div>
+            <div>
+              <input class="form-check-input" type="checkbox" value="" />
+              <label class="form-check-label">
+                New
+              </label>
+            </div>
+            <div>
+              <input class="form-check-input" type="checkbox" value="" />
+              <label class="form-check-label">
+                Custom
+              </label>
+            </div>
+            <div class="border-bottom my-2 ml-n3">
+              <h5 class="">PRICE</h5>
+            </div>
+            <div>
+              <input class="form-check-input" type="checkbox" value="" />
+              <label class="form-check-label">
+                $5,000- $10,000
+              </label>
+            </div>
+            <div>
+              <input class="form-check-input" type="checkbox" value="" />
+              <label class="form-check-label">
+                $10,000 - $15,000
+              </label>
+            </div>
+            <div>
+              <input class="form-check-input" type="checkbox" value="" />
+              <label class="form-check-label">
+                $15,000 - $20,000
+              </label>
+            </div>
+            <div>
+              <div class="border-bottom my-2 ml-n3">
+                <h5 class="">CATEGORY</h5>
+              </div>
+              <input class="form-check-input" type="checkbox" value="" />
+              <label class="form-check-label">
+                Disco Equipment
+              </label>
+            </div>
+            <div>
+              <input class="form-check-input" type="checkbox" value="" />
+              <label class="form-check-label">
+                Guitars
+              </label>
+            </div>
+            <div>
+              <input class="form-check-input" type="checkbox" value="" />
+              <label class="form-check-label">
+                Pianos
+              </label>
+            </div>
+            <div>
+              <input class="form-check-input" type="checkbox" value="" />
+              <label class="form-check-label">
+                Drums
+              </label>
+            </div>
+          </div>
+
+          <!-- SEARCH RESULTS -->
+
+          <div class="search-results col-sm-11 col-md-9 col-lg-8 border pt-2">
+            <div>
+              <p>We found 38 results for your search. Please check below:</p>
+            </div>
+            <div class="d-flex search-results-card border-top border-bottom py-4">
+              <div class="background-image-search mr-4">
+                <div class="arrows">
+                  <i class="fas fa-angle-left fa-2x magenta-text p-1 blacklight-bg"></i>
+                  <i class="fas fa-angle-right fa-2x magenta-text p-1 blacklight-bg"></i>
+                </div>
+              </div>
+              <div>
+                <h4>Yamaha YDP S54 Digital Piano, Black</h4>
+                <p class="text-justify blacklight-color d-none d-sm-none d-md-block">
+                  The Yamaha YDP S54 in black brings an expressive piano
+                  experience to your front room.
+                </p>
+                <p class="blacklight-color">
+                  Location:
+                  <span class="graylight-color">San Francisco, United States</span>
+                </p>
+                <div class="d-flex justify-content-between">
+                  <button type="button" class="btn magenta-bg text-white mr-2">
+                    <i class="fas fa-dollar-sign"></i>5,000
+                  </button>
+                  <button type="button" class="btn magenta-bg text-white">
+                    <i class="fas fa-cart-plus"></i> BUY
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex search-results-card border-top border-bottom py-4">
+              <div class="background-image-search mr-4">
+                <div class="arrows">
+                  <i class="fas fa-angle-left fa-2x magenta-text p-1 blacklight-bg"></i>
+                  <i class="fas fa-angle-right fa-2x magenta-text p-1 blacklight-bg"></i>
+                </div>
+              </div>
+              <div>
+                <h4>Yamaha YDP S54 Digital Piano, Black</h4>
+                <p class="text-justify blacklight-color d-none d-sm-none d-md-block">
+                  The Yamaha YDP S54 in black brings an expressive piano
+                  experience to your front room.
+                </p>
+                <p class="blacklight-color">
+                  Location:
+                  <span class="graylight-color">San Francisco, United States</span>
+                </p>
+                <div class="d-flex justify-content-between">
+                  <button type="button" class="btn magenta-bg text-white mr-2">
+                    <i class="fas fa-dollar-sign"></i>5,000
+                  </button>
+                  <button type="button" class="btn magenta-bg text-white">
+                    <i class="fas fa-cart-plus"></i> BUY
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex search-results-card border-top border-bottom py-4">
+              <div class="background-image-search mr-4">
+                <div class="arrows">
+                  <i class="fas fa-angle-left fa-2x magenta-text p-1 blacklight-bg"></i>
+                  <i class="fas fa-angle-right fa-2x magenta-text p-1 blacklight-bg"></i>
+                </div>
+              </div>
+              <div>
+                <h4>Yamaha YDP S54 Digital Piano, Black</h4>
+                <p class="text-justify blacklight-color d-none d-sm-none d-md-block">
+                  The Yamaha YDP S54 in black brings an expressive piano
+                  experience to your front room.
+                </p>
+                <p class="blacklight-color">
+                  Location:
+                  <span class="graylight-color">San Francisco, United States</span>
+                </p>
+                <div class="d-flex justify-content-between">
+                  <button type="button" class="btn magenta-bg text-white mr-2">
+                    <i class="fas fa-dollar-sign"></i>5,000
+                  </button>
+                  <button type="button" class="btn magenta-bg text-white">
+                    <i class="fas fa-cart-plus"></i> BUY
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex search-results-card border-top border-bottom py-4">
+              <div class="background-image-search mr-4">
+                <div class="arrows">
+                  <i class="fas fa-angle-left fa-2x magenta-text p-1 blacklight-bg"></i>
+                  <i class="fas fa-angle-right fa-2x magenta-text p-1 blacklight-bg"></i>
+                </div>
+              </div>
+              <div>
+                <h4>Yamaha YDP S54 Digital Piano, Black</h4>
+                <p class="text-justify blacklight-color d-none d-sm-none d-md-block">
+                  The Yamaha YDP S54 in black brings an expressive piano
+                  experience to your front room.
+                </p>
+                <p class="blacklight-color">
+                  Location:
+                  <span class="graylight-color">San Francisco, United States</span>
+                </p>
+                <div class="d-flex justify-content-between">
+                  <button type="button" class="btn magenta-bg text-white mr-2">
+                    <i class="fas fa-dollar-sign"></i>5,000
+                  </button>
+                  <button type="button" class="btn magenta-bg text-white">
+                    <i class="fas fa-cart-plus"></i> BUY
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex search-results-card border-top border-bottom py-4">
+              <div class="background-image-search mr-4">
+                <div class="arrows">
+                  <i class="fas fa-angle-left fa-2x magenta-text p-1 blacklight-bg"></i>
+                  <i class="fas fa-angle-right fa-2x magenta-text p-1 blacklight-bg"></i>
+                </div>
+              </div>
+              <div>
+                <h4>Yamaha YDP S54 Digital Piano, Black</h4>
+                <p class="text-justify blacklight-color d-none d-sm-none d-md-block">
+                  The Yamaha YDP S54 in black brings an expressive piano
+                  experience to your front room.
+                </p>
+                <p class="blacklight-color">
+                  Location:
+                  <span class="graylight-color">San Francisco, United States</span>
+                </p>
+                <div class="d-flex justify-content-between">
+                  <button type="button" class="btn magenta-bg text-white mr-2">
+                    <i class="fas fa-dollar-sign"></i>5,000
+                  </button>
+                  <button type="button" class="btn magenta-bg text-white">
+                    <i class="fas fa-cart-plus"></i> BUY
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex search-results-card border-top border-bottom py-4">
+              <div class="background-image-search mr-4">
+                <div class="arrows">
+                  <i class="fas fa-angle-left fa-2x magenta-text p-1 blacklight-bg"></i>
+                  <i class="fas fa-angle-right fa-2x magenta-text p-1 blacklight-bg"></i>
+                </div>
+              </div>
+              <div>
+                <h4>Yamaha YDP S54 Digital Piano, Black</h4>
+                <p class="text-justify blacklight-color d-none d-sm-none d-md-block">
+                  The Yamaha YDP S54 in black brings an expressive piano
+                  experience to your front room.
+                </p>
+                <p class="blacklight-color">
+                  Location:
+                  <span class="graylight-color">San Francisco, United States</span>
+                </p>
+                <div class="d-flex justify-content-between">
+                  <button type="button" class="btn magenta-bg text-white mr-2">
+                    <i class="fas fa-dollar-sign"></i>5,000
+                  </button>
+                  <button type="button" class="btn magenta-bg text-white">
+                    <i class="fas fa-cart-plus"></i> BUY
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-
-      <!-- SEARCH PAGE -->
-
-      <div class="container">
-        <!-- SEARCH SECTION -->
-        <section>
-          <div class="row mx-auto">
-            <div
-              class="search-conatiner border-left col-md-3 pt-4 d-none d-sm-none d-md-block pl-4 border-bottom"
-            >
-              <div class="">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  value=""
-                  id="defaultCheck1"
-                />
-                <label class="form-check-label pr-4" for="defaultCheck1">
-                  NEW
-                </label>
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  value=""
-                  id="defaultCheck1"
-                />
-                <label class="form-check-label" for="defaultCheck1">
-                  USED
-                </label>
-              </div>
-
-              <div class="border-bottom my-2 ml-n3">
-                <h5 class="">TYPE</h5>
-              </div>
-              <div>
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  value=""
-                  id="defaultCheck1"
-                />
-                <label class="form-check-label" for="defaultCheck1">
-                  Used
-                </label>
-              </div>
-              <div>
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  value=""
-                  id="defaultCheck1"
-                />
-                <label class="form-check-label" for="defaultCheck1">
-                  New
-                </label>
-              </div>
-              <div>
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  value=""
-                  id="defaultCheck1"
-                />
-                <label class="form-check-label" for="defaultCheck1">
-                  Custom
-                </label>
-              </div>
-              <div class="border-bottom my-2 ml-n3">
-                <h5 class="">PRICE</h5>
-              </div>
-              <div>
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  value=""
-                  id="defaultCheck1"
-                />
-                <label class="form-check-label" for="defaultCheck1">
-                  $5,000- $10,000
-                </label>
-              </div>
-              <div>
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  value=""
-                  id="defaultCheck1"
-                />
-                <label class="form-check-label" for="defaultCheck1">
-                  $10,000 - $15,000
-                </label>
-              </div>
-              <div>
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  value=""
-                  id="defaultCheck1"
-                />
-                <label class="form-check-label" for="defaultCheck1">
-                  $15,000 - $20,000
-                </label>
-              </div>
-              <div>
-                <div class="border-bottom my-2 ml-n3">
-                  <h5 class="">CATEGORY</h5>
-                </div>
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  value=""
-                  id="defaultCheck1"
-                />
-                <label class="form-check-label" for="defaultCheck1">
-                  Disco Equipment
-                </label>
-              </div>
-              <div>
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  value=""
-                  id="defaultCheck1"
-                />
-                <label class="form-check-label" for="defaultCheck1">
-                  Guitars
-                </label>
-              </div>
-              <div>
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  value=""
-                  id="defaultCheck1"
-                />
-                <label class="form-check-label" for="defaultCheck1">
-                  Pianos
-                </label>
-              </div>
-              <div>
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  value=""
-                  id="defaultCheck1"
-                />
-                <label class="form-check-label" for="defaultCheck1">
-                  Drums
-                </label>
-              </div>
-            </div>
-
-            <!-- SEARCH RESULTS -->
-
-            <div class="search-results col-sm-11 col-md-9 col-lg-8 border pt-2">
-              <div>
-                <p>We found 38 results for your search. Please check below:</p>
-              </div>
-              <div
-                class="d-flex search-results-card border-top border-bottom py-4"
-              >
-                <div class="background-image-search mr-4">
-                  <div class="arrows">
-                    <i
-                      class="fas fa-angle-left fa-2x magenta-text p-1 blacklight-bg"
-                    ></i>
-                    <i
-                      class="fas fa-angle-right fa-2x magenta-text p-1 blacklight-bg"
-                    ></i>
-                  </div>
-                </div>
-                <div>
-                  <h4>Yamaha YDP S54 Digital Piano, Black</h4>
-                  <p
-                    class="text-justify blacklight-color d-none d-sm-none d-md-block"
-                  >
-                    The Yamaha YDP S54 in black brings an expressive piano
-                    experience to your front room.
-                  </p>
-                  <p class="blacklight-color">
-                    Location:
-                    <span class="graylight-color"
-                      >San Francisco, United States</span
-                    >
-                  </p>
-                  <div class="d-flex justify-content-between">
-                    <button
-                      type="button"
-                      class="btn magenta-bg text-white mr-2"
-                    >
-                      <i class="fas fa-dollar-sign"></i>5,000
-                    </button>
-                    <button type="button" class="btn magenta-bg text-white">
-                      <i class="fas fa-cart-plus"></i> BUY
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="d-flex search-results-card border-top border-bottom py-4"
-              >
-                <div class="background-image-search mr-4">
-                  <div class="arrows">
-                    <i
-                      class="fas fa-angle-left fa-2x magenta-text p-1 blacklight-bg"
-                    ></i>
-                    <i
-                      class="fas fa-angle-right fa-2x magenta-text p-1 blacklight-bg"
-                    ></i>
-                  </div>
-                </div>
-                <div>
-                  <h4>Yamaha YDP S54 Digital Piano, Black</h4>
-                  <p
-                    class="text-justify blacklight-color d-none d-sm-none d-md-block"
-                  >
-                    The Yamaha YDP S54 in black brings an expressive piano
-                    experience to your front room.
-                  </p>
-                  <p class="blacklight-color">
-                    Location:
-                    <span class="graylight-color"
-                      >San Francisco, United States</span
-                    >
-                  </p>
-                  <div class="d-flex justify-content-between">
-                    <button
-                      type="button"
-                      class="btn magenta-bg text-white mr-2"
-                    >
-                      <i class="fas fa-dollar-sign"></i>5,000
-                    </button>
-                    <button type="button" class="btn magenta-bg text-white">
-                      <i class="fas fa-cart-plus"></i> BUY
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="d-flex search-results-card border-top border-bottom py-4"
-              >
-                <div class="background-image-search mr-4">
-                  <div class="arrows">
-                    <i
-                      class="fas fa-angle-left fa-2x magenta-text p-1 blacklight-bg"
-                    ></i>
-                    <i
-                      class="fas fa-angle-right fa-2x magenta-text p-1 blacklight-bg"
-                    ></i>
-                  </div>
-                </div>
-                <div>
-                  <h4>Yamaha YDP S54 Digital Piano, Black</h4>
-                  <p
-                    class="text-justify blacklight-color d-none d-sm-none d-md-block"
-                  >
-                    The Yamaha YDP S54 in black brings an expressive piano
-                    experience to your front room.
-                  </p>
-                  <p class="blacklight-color">
-                    Location:
-                    <span class="graylight-color"
-                      >San Francisco, United States</span
-                    >
-                  </p>
-                  <div class="d-flex justify-content-between">
-                    <button
-                      type="button"
-                      class="btn magenta-bg text-white mr-2"
-                    >
-                      <i class="fas fa-dollar-sign"></i>5,000
-                    </button>
-                    <button type="button" class="btn magenta-bg text-white">
-                      <i class="fas fa-cart-plus"></i> BUY
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="d-flex search-results-card border-top border-bottom py-4"
-              >
-                <div class="background-image-search mr-4">
-                  <div class="arrows">
-                    <i
-                      class="fas fa-angle-left fa-2x magenta-text p-1 blacklight-bg"
-                    ></i>
-                    <i
-                      class="fas fa-angle-right fa-2x magenta-text p-1 blacklight-bg"
-                    ></i>
-                  </div>
-                </div>
-                <div>
-                  <h4>Yamaha YDP S54 Digital Piano, Black</h4>
-                  <p
-                    class="text-justify blacklight-color d-none d-sm-none d-md-block"
-                  >
-                    The Yamaha YDP S54 in black brings an expressive piano
-                    experience to your front room.
-                  </p>
-                  <p class="blacklight-color">
-                    Location:
-                    <span class="graylight-color"
-                      >San Francisco, United States</span
-                    >
-                  </p>
-                  <div class="d-flex justify-content-between">
-                    <button
-                      type="button"
-                      class="btn magenta-bg text-white mr-2"
-                    >
-                      <i class="fas fa-dollar-sign"></i>5,000
-                    </button>
-                    <button type="button" class="btn magenta-bg text-white">
-                      <i class="fas fa-cart-plus"></i> BUY
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="d-flex search-results-card border-top border-bottom py-4"
-              >
-                <div class="background-image-search mr-4">
-                  <div class="arrows">
-                    <i
-                      class="fas fa-angle-left fa-2x magenta-text p-1 blacklight-bg"
-                    ></i>
-                    <i
-                      class="fas fa-angle-right fa-2x magenta-text p-1 blacklight-bg"
-                    ></i>
-                  </div>
-                </div>
-                <div>
-                  <h4>Yamaha YDP S54 Digital Piano, Black</h4>
-                  <p
-                    class="text-justify blacklight-color d-none d-sm-none d-md-block"
-                  >
-                    The Yamaha YDP S54 in black brings an expressive piano
-                    experience to your front room.
-                  </p>
-                  <p class="blacklight-color">
-                    Location:
-                    <span class="graylight-color"
-                      >San Francisco, United States</span
-                    >
-                  </p>
-                  <div class="d-flex justify-content-between">
-                    <button
-                      type="button"
-                      class="btn magenta-bg text-white mr-2"
-                    >
-                      <i class="fas fa-dollar-sign"></i>5,000
-                    </button>
-                    <button type="button" class="btn magenta-bg text-white">
-                      <i class="fas fa-cart-plus"></i> BUY
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="d-flex search-results-card border-top border-bottom py-4"
-              >
-                <div class="background-image-search mr-4">
-                  <div class="arrows">
-                    <i
-                      class="fas fa-angle-left fa-2x magenta-text p-1 blacklight-bg"
-                    ></i>
-                    <i
-                      class="fas fa-angle-right fa-2x magenta-text p-1 blacklight-bg"
-                    ></i>
-                  </div>
-                </div>
-                <div>
-                  <h4>Yamaha YDP S54 Digital Piano, Black</h4>
-                  <p
-                    class="text-justify blacklight-color d-none d-sm-none d-md-block"
-                  >
-                    The Yamaha YDP S54 in black brings an expressive piano
-                    experience to your front room.
-                  </p>
-                  <p class="blacklight-color">
-                    Location:
-                    <span class="graylight-color"
-                      >San Francisco, United States</span
-                    >
-                  </p>
-                  <div class="d-flex justify-content-between">
-                    <button
-                      type="button"
-                      class="btn magenta-bg text-white mr-2"
-                    >
-                      <i class="fas fa-dollar-sign"></i>5,000
-                    </button>
-                    <button type="button" class="btn magenta-bg text-white">
-                      <i class="fas fa-cart-plus"></i> BUY
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+    </div>
+    <!-- FOOTER -->
+    <footer>
+      <div class="d-flex flex-column align-items-center">
+        <img class="gearlogo" src="images/gear4musiclogo.svg" alt="" />
+        <ul class="d-flex list-unstyled">
+          <li><a class="px-2" href="">Home</a></li>
+          <li><a class="px-2" href="">About Us</a></li>
+          <li><a class="px-2" href="">Contact Us</a></li>
+          <li><a class="px-2" href="">Terms & Conditions</a></li>
+        </ul>
+        <p>Coypright© 2020, All Rights Reserved</p>
+        <p>This website is made by KartheeK Paturu</p>
       </div>
-      <!-- FOOTER -->
-      <footer>
-        <div class="d-flex flex-column align-items-center">
-          <img class="gearlogo" src="images/gear4musiclogo.svg" alt="" />
-          <ul class="d-flex list-unstyled">
-            <li><a class="px-2" href="">Home</a></li>
-            <li><a class="px-2" href="">About Us</a></li>
-            <li><a class="px-2" href="">Contact Us</a></li>
-            <li><a class="px-2" href="">Terms & Conditions</a></li>
-          </ul>
-          <p>Coypright© 2020, All Rights Reserved</p>
-          <p>This website is made by KartheeK Paturu</p>
-        </div>
-      </footer>
-    </main>
-  </body>
+    </footer>
+  </main>
+</body>
+
 </html>
