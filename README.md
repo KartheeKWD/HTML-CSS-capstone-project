@@ -41,15 +41,11 @@ The project is built using HTML and CSS with an extensive use of the grid and fl
 
 Clone the project locally.
 
-### Linters
+### Getting Started
 
-1. run `npm install`.
-2. run `npm run test` to check the HTML and CSS files.
-2. run `npm run watch` to start watching for SCSS changes.
+To get a local copy of the repository please run the following commands on your terminal:
 
-### Deployment
-
-Install and run a live server plugin on you IDE/Text editor and run it from the root directory.
+$ cd $ git clone https://github.com/KartheekWD/HTML-CSS-capstone-project.git
 
 ### Future improvements
 

@@ -1,5 +1,9 @@
 /* SEARCH-RESULT */
 
+.search-page {
+  background-color: #f2f2f2;
+}
+
 .background-image-search {
   background-position: center;
   background-size: cover;
