@@ -37,13 +37,6 @@ The project is built using HTML and CSS with an extensive use of the grid and fl
 
 ## To get a local copy up and running follow these simple example steps.
 
-### Setup
-
-Clone the project locally.
-
-### Getting Started
-
-To get a local copy of the repository please run the following commands on your terminal:
 
 Run `git clone https://github.com/KartheekWD/HTML-CSS-capstone-project.git` in your terminal and then change directory into the HTML-CSS-capstone-project folder"
 
