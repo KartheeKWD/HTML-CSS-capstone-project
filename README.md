@@ -45,7 +45,7 @@ Clone the project locally.
 
 To get a local copy of the repository please run the following commands on your terminal:
 
-$ cd $ git clone https://github.com/KartheekWD/HTML-CSS-capstone-project.git
+Run `git clone https://github.com/KartheekWD/HTML-CSS-capstone-project.git` in your terminal and then change directory into the HTML-CSS-capstone-project folder"
 
 ### Future improvements
 
