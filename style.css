@@ -41,10 +41,7 @@ a {
   text-decoration: none;
 }
 
-nav a {
-  color: #888;
-}
-
+nav a,
 footer a {
   color: #888;
 }
@@ -53,10 +50,7 @@ a:hover {
   text-decoration: none;
 }
 
-nav a:hover {
-  color: #d35266;
-}
-
+nav a:hover,
 footer a:hover {
   color: #d35266;
 }
@@ -90,6 +84,14 @@ footer a:hover {
 
 /* Header */
 
+.mobile-header {
+  display: block;
+}
+
+.larger-header {
+  display: none;
+}
+
 header {
   background-color: #383838;
 }
@@ -104,7 +106,7 @@ header {
   background-image: url("images/showcaseneww.jpg"), linear-gradient(rgba(211, 82, 102, 0.8043592437) 25%, rgba(211, 82, 102, 0.8015581232) 75%);
   background-position: center;
   background-size: cover;
-  height: 55vh;
+  height: 400px;
   width: 100%;
 }
 
@@ -163,6 +165,14 @@ footer p {
     width: 130px;
   }
 
+  .mobile-header {
+    display: none;
+  }
+
+  .larger-header {
+    display: block;
+  }
+
   .form-container {
     width: 100%;
   }
@@ -190,9 +200,5 @@ footer p {
     display: grid;
     grid-template-columns: 20px repeat(4, 1fr) 20px;
     gap: 1rem;
-  }
-
-  .showcasecontainer {
-    height: 45vh;
   }
 }

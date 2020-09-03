@@ -1,5 +1,9 @@
 /* SEARCH-RESULT */
 
+.search-input {
+  display: none;
+}
+
 .search-page {
   background-color: #f2f2f2;
 }
@@ -54,5 +58,9 @@ label {
 
   .form-container {
     width: 100%;
+  }
+
+  .search-input {
+    display: block;
   }
 }
