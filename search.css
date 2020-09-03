@@ -1,0 +1,60 @@
+/* SEARCH-RESULT */
+
+.search-input {
+  display: none;
+}
+
+.search-page {
+  background-color: #f2f2f2;
+}
+
+.background-image-search {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+.searc1 {
+  background-image: url(images/mic.jpg);
+}
+
+.search2 {
+  background-image: url(images/search2.jpeg);
+}
+
+.search3 {
+  background-image: url(images/search3.jpeg);
+}
+
+.search4 {
+  background-image: url(images/search4.jpeg);
+}
+
+.search5 {
+  background-image: url(images/search5.jpeg);
+}
+
+.search6 {
+  background-image: url(images/search6.jpeg);
+}
+
+label {
+  color: #888;
+}
+
+/* Tablet breakpoint 768px */
+@media (min-width: 768px) {
+  .gearlogo {
+    width: 130px;
+  }
+
+  .form-container {
+    width: 100%;
+  }
+
+  .search-input {
+    display: block;
+  }
+}
