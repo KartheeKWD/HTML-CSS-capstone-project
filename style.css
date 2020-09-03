@@ -173,6 +173,10 @@ footer p {
     display: block;
   }
 
+  .showcasecontainer {
+    height: 350px;
+  }
+
   .form-container {
     width: 100%;
   }
